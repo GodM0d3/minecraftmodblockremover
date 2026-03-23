@@ -14,4 +14,3 @@ def parse_version(version_str: str) -> tuple:
 def ensure_namespace(block_id: str) -> str:
     """Stellt sicher, dass eine Block-ID einen Namespace hat (z.B. 'minecraft:stone')."""
     return block_id if ":" in block_id else f"minecraft:{block_id}"
- 
